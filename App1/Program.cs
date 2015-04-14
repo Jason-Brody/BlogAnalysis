@@ -14,7 +14,7 @@ namespace App1
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             var a = AppDomain.CurrentDomain.GetAssemblies();
             AppDomain app2 = AppDomain.CreateDomain("Test");
             AppDomain app3 = AppDomain.CreateDomain("Test");
